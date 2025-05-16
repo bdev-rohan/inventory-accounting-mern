@@ -38,7 +38,7 @@ const MonthlyChart = () => {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Bar dataKey='revenue' fill='#164863' />
+        <Bar dataKey='revenue' fill='#46629c' />
       </BarChart>
     </ResponsiveContainer>
   );

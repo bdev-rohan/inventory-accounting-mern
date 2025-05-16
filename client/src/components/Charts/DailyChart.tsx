@@ -53,7 +53,7 @@ export default function DailyChart() {
         <XAxis dataKey='name' />
         <YAxis />
         <Tooltip />
-        <Area type='monotone' dataKey='revenue' stroke='#8884d8' fill='#164863' />
+        <Area type='monotone' dataKey='revenue' stroke='#8884d8' fill='#97b1e6' />
         <Area type='monotone' dataKey='quantity' stroke='#8884d8' fill='#164863' />
       </AreaChart>
     </ResponsiveContainer>

@@ -22,7 +22,7 @@ const Dashboard = () => {
           </Col>
           <Col xs={{ span: 24 }} lg={{ span: 8 }} style={{ padding: '.5rem' }}>
             <div className='number-card'>
-              <h3>Total Item Sell </h3>
+              <h3>Total Items Sold </h3>
               <h1>
                 {yearlyData?.data.reduce(
                   (acc: number, cur: { totalQuantity: number }) => (acc += cur.totalQuantity),
@@ -35,7 +35,7 @@ const Dashboard = () => {
             <div className='number-card'>
               <h3>Total Revenue</h3>
               <h1>
-                $
+                ₹
                 {yearlyData?.data.reduce(
                   (acc: number, cur: { totalRevenue: number }) => (acc += cur.totalRevenue),
                   0
@@ -52,7 +52,7 @@ const Dashboard = () => {
             borderRadius: '10px',
           }}
         >
-          <h1 style={{ textAlign: 'center', marginBottom: '.5rem' }}>Daily Sale and Revenue</h1>
+          <h1 style={{ textAlign: 'center', marginBottom: '.5rem' }}>Daily Sales and Revenue</h1>
           <DailyChart />
         </div>
         <div
