@@ -1,4 +1,9 @@
-# A full stack Inventory management system
+# zephyr-winter-2025-26
+
+## Project Title : Inventory and Accounting Software
+## Tech stack : MERN
+
+## Features and functionalities :
 
 ### Technologies
 
