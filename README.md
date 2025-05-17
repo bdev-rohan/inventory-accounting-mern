@@ -1,6 +1,7 @@
 # zephyr-winter-2025-26
 
 ## Project Title : Inventory and Accounting Software
+
 ## Tech stack : MERN
 
 ## Features and functionalities :
@@ -58,8 +59,8 @@
 ```bash
    NODE_ENV=dev
    PORT=4000
-   DATABASE_URL=  #### use your local mongodb URI or mongodb atlas URI
-   JWT_SECRET=your_secret_key
+   DATABASE_URL=  #### use local mongodb URI or mongodb atlas URI
+   JWT_SECRET=secret_key
 ```
 
 3. Install the dependencies and run backend
